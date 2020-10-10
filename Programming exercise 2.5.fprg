@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Hayes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-09-30 10:03:34 AM"/>
+        <attribute name="created" value="SGF5ZXM7REVTS1RPUC1LRkRGRTM3OzIwMTktMDktMzA7MDk6MzU6MzkgQU07MjgyOQ=="/>
+        <attribute name="edited" value="SGF5ZXM7REVTS1RPUC1LRkRGRTM3OzIwMTktMDktMzA7MTA6MDM6MzQgQU07MTsyOTE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="speed" expression="60"/>
+            <assign variable="time1" expression="5"/>
+            <assign variable="time2" expression="8"/>
+            <assign variable="time3" expression="12"/>
+            <input variable="speed"/>
+            <output expression="&quot;Traveling at 60 miles per hour&quot;" newline="True"/>
+            <input variable="distance1"/>
+            <assign variable="Distance1" expression="speed*time1"/>
+            <output expression="&quot;After 5 hours you would have traveled&quot;" newline="True"/>
+            <input variable="distance2"/>
+            <assign variable="Distance2" expression="speed*time2"/>
+            <output expression="&quot;After 8 hours you would have traveled&quot;" newline="True"/>
+            <input variable="distance3"/>
+            <assign variable="distance3" expression="speed*time3"/>
+            <output expression="&quot;After 12 hours you would have traveled&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
